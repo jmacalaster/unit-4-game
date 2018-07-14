@@ -1,4 +1,86 @@
 body {
-    background-image: url("/assets/images/background");
     background-color: #076324;
+    background-image: url("https://bps.hs.llnwd.net/e2/v2/common/Common/Common/neutral/image/2017/03/game.netentBlackjack3Hand.backgroundimage_v3.jpg");
+}
+
+.jumbotron {
+    background-color: #076324;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Shrikhand', cursive;
+}
+
+.lead {
+    color: #ffffff;
+    font-size: 14pt;
+}
+
+.losses {
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: 'Shrikhand', cursive;
+}
+
+.wins {
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: 'Shrikhand', cursive;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16pt;
+    font-family: 'Shrikhand', cursive;
+}
+
+#dots {
+    color: #ffffff;
+    font-size: 60pt;
+    font-family: 'Shrikhand', cursive;
+    font-style: bold;
+    font-weight: 800;
+    text-align: center;
+}
+
+#card-two, #card-three, #card-four, #card-five, #card-six, #card-seven, #card-eight, #card-nine, #card-ten, #card-eleven {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.back-of-card {
+    position: relative;
+    top: 0;
+    left:0;
+    height: 290px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: 3;
+}
+
+.front-of-card {
+    position: relative;
+    top: 0;
+    left: 10px;
+    height: 290px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.computer-count {
+    color: black;
+    font-size: 16pt;
+}
+
+.your-count {
+    color: black;
+    font-size: 16pt;
 }
